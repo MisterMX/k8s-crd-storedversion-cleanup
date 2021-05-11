@@ -26,6 +26,12 @@ Otherwise `kubectl` might respond with something like
 The CustomResourceDefinition is invalid: status.storedVersions[0]: Invalid value: "v1alpha1": must appear in spec.versions
 ```
 
+## Install
+
+```bash
+go install github.com/MisterMX/k8s-crd-storedversion-cleanup/cmd/k8s-crd-storedversion-cleanup@latest 
+```
+
 ## Usage
 
 1. Clone this repo
